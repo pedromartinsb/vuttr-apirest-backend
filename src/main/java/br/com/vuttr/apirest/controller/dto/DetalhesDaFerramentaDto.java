@@ -12,7 +12,6 @@ public class DetalhesDaFerramentaDto {
 	private String nome;
 	private String descricao;
 	private String links;
-	private String nomeAutor;
 	private List<TagDto> tags;
 
 	public DetalhesDaFerramentaDto(Ferramenta ferramenta) {
@@ -20,7 +19,6 @@ public class DetalhesDaFerramentaDto {
 		this.nome = ferramenta.getNome();
 		this.descricao = ferramenta.getDescricao();
 		this.links = ferramenta.getLinks();
-		this.nomeAutor = ferramenta.getAutor().getNome();
 		this.tags = new ArrayList<>();
 		tags.addAll(ferramenta.getTags().stream().map(TagDto::new).collect(Collectors.toList()));
 	}
@@ -39,10 +37,6 @@ public class DetalhesDaFerramentaDto {
 
 	public String getLinks() {
 		return links;
-	}
-
-	public String getNomeAutor() {
-		return nomeAutor;
 	}
 
 	public List<TagDto> getTags() {

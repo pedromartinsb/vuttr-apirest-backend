@@ -1,9 +1,13 @@
 package br.com.vuttr.apirest.controller.form;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import br.com.vuttr.apirest.modelo.Ferramenta;
+import br.com.vuttr.apirest.modelo.Tag;
 
 public class FerramentaForm {
 
@@ -15,6 +19,8 @@ public class FerramentaForm {
 	
 	@NotEmpty
 	private String links;
+	
+	private List<Tag> tags = new ArrayList<>();
 
 	public String getNome() {
 		return nome;
@@ -42,6 +48,14 @@ public class FerramentaForm {
 
 	public Ferramenta converter() {
 		return new Ferramenta(nome, descricao, links);
+	}
+
+	public List<Tag> getTags() {
+		return tags;
+	}
+
+	public void setTags(List<Tag> tags) {
+		this.tags = tags;
 	}
 
 }

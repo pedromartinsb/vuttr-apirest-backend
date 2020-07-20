@@ -15,4 +15,7 @@ public interface FerramentaRepository extends JpaRepository<Ferramenta, Long> {
 	@Query("SELECT f FROM Ferramenta f WHERE f.nome = :nomeFerramenta")
 	List<Ferramenta> carregarPorNomeDaFerramenta(@Param("nomeFerramenta") String nomeFerramenta);
 
+//	@Query("SELECT f FROM Ferramenta f INNER JOIN Tag t on t.ferramenta_id = f.id WHERE t.descricao like :nomeTag")
+	List<Ferramenta> findByTags_Descricao(String tag);
+
 }

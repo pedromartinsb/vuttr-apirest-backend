@@ -7,7 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 @Entity
@@ -19,8 +18,6 @@ public class Ferramenta {
 	private String nome;
 	private String descricao;
 	private String links;
-	@ManyToOne
-	private Usuario autor;
 	@OneToMany(mappedBy = "ferramenta")
 	private List<Tag> tags = new ArrayList<>();
 
@@ -63,14 +60,6 @@ public class Ferramenta {
 
 	public void setLinks(String links) {
 		this.links = links;
-	}
-
-	public Usuario getAutor() {
-		return autor;
-	}
-
-	public void setAutor(Usuario autor) {
-		this.autor = autor;
 	}
 
 	public List<Tag> getTags() {
