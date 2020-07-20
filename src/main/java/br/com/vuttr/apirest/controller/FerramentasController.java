@@ -57,6 +57,7 @@ public class FerramentasController {
 		Ferramenta ferramenta = form.converter();
 		ferramentaRepository.save(ferramenta);
 		
+		// criando lista para popular e setar dentro do Objeto Ferramenta
 		List<Tag> lstTags = new ArrayList<>();
 		
 		for (Tag tagRetorno : form.getTags()) {
@@ -67,6 +68,7 @@ public class FerramentasController {
 			lstTags.add(tag);
 		}
 
+		// setando a lista de Tags para retorno do método
 		ferramenta.setTags(lstTags);
 		
 		URI uri = uriBuilder.path("/ferramentas/{id}").buildAndExpand(ferramenta.getId()).toUri();
