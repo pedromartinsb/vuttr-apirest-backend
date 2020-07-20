@@ -13,3 +13,7 @@ Uma API real simples contendo  CRUD de classes, Spring Security e JWT, Spring Ca
 <h2>ScreenShot Requisição de Ferramentas com filtro de Tag descrição</h2>
 
 ![Captura de tela de 2020-07-20 09-39-23](https://user-images.githubusercontent.com/33515329/87938439-fb52ae80-ca6c-11ea-83a8-1e1519309221.png)
+
+<h2>ScreenShot Requisição POST Ferramenta passando lista de Tags</h2>
+
+![Captura de tela de 2020-07-20 12-06-18](https://user-images.githubusercontent.com/33515329/87953698-c1d86e00-ca81-11ea-949c-e29aa96d04a2.png)
