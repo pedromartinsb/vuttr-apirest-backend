@@ -3,6 +3,7 @@ package br.com.vuttr.apirest.controller;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import javax.transaction.Transactional;
 import javax.validation.Valid;
@@ -34,7 +35,7 @@ public class FerramentasController {
 
 	@Autowired
 	private FerramentaRepository ferramentaRepository;
-	
+
 	@Autowired
 	private TagRepository tagRepository;
 
@@ -53,13 +54,14 @@ public class FerramentasController {
 	}
 
 	@PostMapping
-	public ResponseEntity<FerramentaDto> cadastrar(@RequestBody @Valid FerramentaForm form, UriComponentsBuilder uriBuilder) {
+	public ResponseEntity<FerramentaDto> cadastrar(@RequestBody @Valid FerramentaForm form,
+			UriComponentsBuilder uriBuilder) {
 		Ferramenta ferramenta = form.converter();
 		ferramentaRepository.save(ferramenta);
-		
+
 		// criando lista para popular e setar dentro do Objeto Ferramenta
 		List<Tag> lstTags = new ArrayList<>();
-		
+
 		for (Tag tagRetorno : form.getTags()) {
 			Tag tag = new Tag();
 			tag.setDescricao(tagRetorno.getDescricao());
@@ -70,38 +72,45 @@ public class FerramentasController {
 
 		// setando a lista de Tags para retorno do método
 		ferramenta.setTags(lstTags);
-		
+
 		URI uri = uriBuilder.path("/ferramentas/{id}").buildAndExpand(ferramenta.getId()).toUri();
 		return ResponseEntity.created(uri).body(new FerramentaDto(ferramenta));
 	}
-	
+
 	@GetMapping("/{id}")
-	public DetalhesDaFerramentaDto detalhar(@PathVariable Long id) {
-		Ferramenta ferramenta = ferramentaRepository.getOne(id);
-		return new DetalhesDaFerramentaDto(ferramenta);
+	public ResponseEntity<DetalhesDaFerramentaDto> detalhar(@PathVariable Long id) {
+		Optional<Ferramenta> ferramenta = ferramentaRepository.findById(id);
+		if (ferramenta.isPresent()) {
+			return ResponseEntity.ok(new DetalhesDaFerramentaDto(ferramenta.get()));
+		}
+
+		return ResponseEntity.notFound().build();
 	}
-	
+
 	@PutMapping("/{id}")
 	@Transactional
-	public ResponseEntity<FerramentaDto> atualizar(@PathVariable Long id, @RequestBody @Valid AtualizacaoFerramentaForm form) {
-		Ferramenta ferramenta = form.atualizar(id, ferramentaRepository);
-		
-		return ResponseEntity.ok(new FerramentaDto(ferramenta));
+	public ResponseEntity<FerramentaDto> atualizar(@PathVariable Long id,
+			@RequestBody @Valid AtualizacaoFerramentaForm form) {
+		Optional<Ferramenta> optional = ferramentaRepository.findById(id);
+		if (optional.isPresent()) {
+			Ferramenta ferramenta = form.atualizar(id, ferramentaRepository);
+			return ResponseEntity.ok(new FerramentaDto(ferramenta));
+		}
+
+		return ResponseEntity.notFound().build();
 	}
-	
+
 	@DeleteMapping("/{id}")
 	@Transactional
 	public ResponseEntity<?> remover(@PathVariable Long id) {
-		tagRepository.deleteByFerramentaId(id);
-		ferramentaRepository.deleteById(id);
-		return ResponseEntity.noContent().build();
+		Optional<Ferramenta> optional = ferramentaRepository.findById(id);
+		if (optional.isPresent()) {
+			tagRepository.deleteByFerramentaId(id);
+			ferramentaRepository.deleteById(id);
+			return ResponseEntity.noContent().build();
+		}
+
+		return ResponseEntity.notFound().build();
 	}
 
 }
-
-
-
-
-
-
-
