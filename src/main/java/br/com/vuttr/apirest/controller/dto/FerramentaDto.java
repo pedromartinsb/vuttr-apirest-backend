@@ -2,7 +2,8 @@ package br.com.vuttr.apirest.controller.dto;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+
+import org.springframework.data.domain.Page;
 
 import br.com.vuttr.apirest.modelo.Ferramenta;
 
@@ -34,10 +35,6 @@ public class FerramentaDto {
 		return links;
 	}
 
-	public static List<FerramentaDto> converter(List<Ferramenta> ferramentas) {
-		return ferramentas.stream().map(FerramentaDto::new).collect(Collectors.toList());
-	}
-
 	public Long getId() {
 		return id;
 	}
@@ -48,6 +45,10 @@ public class FerramentaDto {
 
 	public void setTags(List<TagDto> tags) {
 		this.tags = tags;
+	}
+	
+	public static Page<FerramentaDto> converter(Page<Ferramenta> ferramentas) {
+		return ferramentas.map(FerramentaDto::new);
 	}
 
 }
