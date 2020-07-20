@@ -9,3 +9,7 @@ Uma API real simples contendo  CRUD de classes, Spring Security e JWT, Spring Ca
 <h2>ScreenShot Requisição PUT de Ferramentas</h2>
 
 ![Captura de tela de 2020-07-18 12-47-20](https://user-images.githubusercontent.com/33515329/87856327-dfc49800-c8f4-11ea-9a50-930d6443f7fb.png)
+
+<h2>ScreenShot Requisição de Ferramentas com filtro de Tag descrição</h2>
+
+![Captura de tela de 2020-07-20 09-39-23](https://user-images.githubusercontent.com/33515329/87938439-fb52ae80-ca6c-11ea-83a8-1e1519309221.png)
