@@ -81,6 +81,12 @@ Frameworks utilizados:
 |hotel|All in one tool|google.com.br|"node","java","react"|
 
 
+## Desenvolvedor
+[<img src="https://avatars1.githubusercontent.com/u/33515329?s=60&v=" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
+| :---: |
+
+
+
 ## Requisições:
 
 ### Autenticar e receber Token
@@ -112,8 +118,3 @@ Frameworks utilizados:
 
 ![Captura de tela de 2020-07-20 12-10-33](https://user-images.githubusercontent.com/33515329/87953931-12e86200-ca82-11ea-9e7b-63b1c891bc53.png)
 
-
-
-## Desenvolvedor
-[<img src="https://avatars1.githubusercontent.com/u/33515329?s=60&v=" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
-| :---: |
