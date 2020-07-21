@@ -1,0 +1,30 @@
+version: '3.1'
+services:
+  db:
+    image: pedromartinsb/postgresql-vuttr-api-rest
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - vuttr-network
+  vuttr-api-rest:
+    image: pedromartinsb/vuttr-api-rest
+    restart: always
+    build: ./api-rest
+    working_dir: /api-rest
+    volumes:
+      - ./api-rest:/api-rest  
+      - ~/.m2:/root/.m2
+    ports:
+      - "3000:3000"
+    command: mvn clean spring-boot:run
+    links:
+      - db
+    depends_on:
+      - db
+    networks:
+      - vuttr-network
+networks:
+    vuttr-network:
+        driver: bridge    
