@@ -61,9 +61,15 @@ Pronto, agora é possível rodar a aplicação a partir da rota http://localhost
 
 - [Spring Boot Tutorial](https://spring.io/guides/gs/spring-boot/): versão 2.3.1
 
+Frameworks utilizados:
 
+- [Eclipse IDE](https://www.eclipse.org/downloads/): versão 2020‑06
 
+- [Postman](https://www.postman.com/)
 
+## Desenvolvedor
+[<img src="https://avatars1.githubusercontent.com/u/33515329?s=60&v=" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
+| :---: |
 
 <h2>ScreeShot Requisição para Autenticar e receber Token</h2>
 
