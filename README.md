@@ -1,6 +1,14 @@
 <h1 align="center"> VUTTR (Very Useful Tools to Remember) </h1>
 <p align="justify"> Uma API real simples contendo  CRUD de classes, Spring Security e JWT, Spring Cache, Paginação e ordenação dos resultados da API, monitoramento dos endpoints com Spring Boot Actuator e Admin, e documentação da API com Swagger. </p>
 
+![Badge](https://img.shields.io/static/v1?label=java&message=language&color=red&style=for-the-badge&logo=JAVA)
+![Badge](https://img.shields.io/static/v1?label=spring+boot&message=framework&color=green&style=for-the-badge&logo=SPRING)
+![Badge](https://img.shields.io/static/v1?label=postman&message=testing+apis&color=orange&style=for-the-badge&logo=POSTMAN)
+![Badge](https://img.shields.io/static/v1?label=postgresql&message=data+base&color=blue&style=for-the-badge&logo=PostgreSQL)
+![Badge](https://img.shields.io/static/v1?label=h2+console&message=data+base&color=green&style=for-the-badge&logo=H2)
+![Badge](https://img.shields.io/static/v1?label=swagger&message=api+documentation&color=green&style=for-the-badge&logo=SWAGGER)
+![Badge](https://img.shields.io/static/v1?label=jwt+token&message=spring+security&color=blue&style=for-the-badge&logo=JWT+TOKEN)
+
 ### Funcionalidades da Aplicação  
 
 - CRUD de classes
