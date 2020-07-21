@@ -46,9 +46,9 @@
 
 > Projeto Frontend: Em desenvolvimento :warning:
 
-## Deploy da Aplicação com Netlify: :dash:
+## Deploy da Aplicação com Heroku ou  Amazon AWS: :dash:
 
-> https://certificates-for-everyone-womakerscode.netlify.app/
+> Aguardando finalizar todo o desenvolvimento backend :warning:
 
 ## Como rodar a aplicação
 
