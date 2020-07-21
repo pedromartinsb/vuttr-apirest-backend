@@ -80,33 +80,40 @@ Frameworks utilizados:
 | -------- | -------- | -------- |-------- |
 |hotel|All in one tool|google.com.br|"node","java","react"|
 
-## Desenvolvedor
-[<img src="https://avatars1.githubusercontent.com/u/33515329?s=60&v=" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
-| :---: |
 
-<h2>ScreeShot Requisição para Autenticar e receber Token</h2>
+## Requisições:
+
+### Autenticar e receber Token
 
 ![Captura de tela de 2020-07-21 11-43-19](https://user-images.githubusercontent.com/33515329/88069116-72f50c00-cb47-11ea-832e-06dc383f2c1a.png)
 
 
-<h2>ScreenShot Requisição GET de Ferramentas trazendo as Tag's</h2>
+###  GET de Ferramentas trazendo as Tag's
 
 ![Captura de tela de 2020-07-20 12-14-59](https://user-images.githubusercontent.com/33515329/87954451-c3eefc80-ca82-11ea-8da5-055b52357421.png)
 
 
-<h2>ScreenShot Requisição PUT de Ferramentas</h2>
+###  PUT de Ferramentas
 
 ![Captura de tela de 2020-07-20 12-22-28](https://user-images.githubusercontent.com/33515329/87955144-b5edab80-ca83-11ea-9a64-a35a4b5f8a2b.png)
 
-<h2>ScreenShot Requisição de Ferramentas com filtro de Tag descrição</h2>
+
+###  Ferramentas com filtro de Tag descrição
 
 ![Captura de tela de 2020-07-20 12-19-37](https://user-images.githubusercontent.com/33515329/87954853-4d9eca00-ca83-11ea-8f4d-342abbcb5314.png)
 
-<h2>ScreenShot Requisição POST Ferramenta passando lista de Tags</h2>
+
+###  POST Ferramenta passando lista de Tags
 
 ![Captura de tela de 2020-07-20 12-06-18](https://user-images.githubusercontent.com/33515329/87953698-c1d86e00-ca81-11ea-949c-e29aa96d04a2.png)
 
-<h2>ScreenShot Requisição DELETE</h2>
+
+###  DELETE
 
 ![Captura de tela de 2020-07-20 12-10-33](https://user-images.githubusercontent.com/33515329/87953931-12e86200-ca82-11ea-9e7b-63b1c891bc53.png)
 
+
+
+## Desenvolvedor
+[<img src="https://avatars1.githubusercontent.com/u/33515329?s=60&v=" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
+| :---: |
