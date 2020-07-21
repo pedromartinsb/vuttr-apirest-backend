@@ -67,6 +67,11 @@ Frameworks utilizados:
 
 - [Postman](https://www.postman.com/)
 
+### Classe Ferramenta: 
+|nome|descricao|links|tags|
+| -------- | -------- | -------- |-------- |
+|hotel|All in one tool|google.com.br|"node","java","react"|
+
 ## Desenvolvedor
 [<img src="https://avatars1.githubusercontent.com/u/33515329?s=60&v=" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
 | :---: |
