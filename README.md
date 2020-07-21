@@ -1,7 +1,12 @@
 # vuttr-apirest-backend
 Uma API real simples contendo  CRUD de classes, Spring Security e JWT, Spring Cache, Paginação e ordenação dos resultados da API, monitoramento dos endpoints com Spring Boot Actuator e Admin, e documentação da API com Swagger.
 
-<h2>ScreenShot Requesição GET de Ferramentas trazendo as Tag's</h2>
+<h2>ScreeShot Requisição para Autenticar e receber Token</h2>
+
+![Captura de tela de 2020-07-21 11-43-19](https://user-images.githubusercontent.com/33515329/88069116-72f50c00-cb47-11ea-832e-06dc383f2c1a.png)
+
+
+<h2>ScreenShot Requisição GET de Ferramentas trazendo as Tag's</h2>
 
 ![Captura de tela de 2020-07-20 12-14-59](https://user-images.githubusercontent.com/33515329/87954451-c3eefc80-ca82-11ea-8da5-055b52357421.png)
 
