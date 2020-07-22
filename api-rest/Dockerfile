@@ -1,1 +1,2 @@
-FROM maven:3.6-jdk-8-slim
+FROM mysql:5.7.22
+EXPOSE 3308
