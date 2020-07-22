@@ -64,6 +64,16 @@ Rodar a aplicação:
 
 Pronto, agora é possível rodar a aplicação a partir da rota http://localhost:3000/ferramentas
 
+### Monitoramento dos Endpoints  
+
+> Dashboard para uso da equipe de Suporte e Desenvolvedores :warning:
+
+> Acompanhar a saúde da aplicação :warning:
+
+> Para startar o projeto e acompanhar: -> Importar o projeto Monitoramento dentro do Eclipse -> Abrir classe main -> Run As Java Application :warning:
+
+> Acesso: http://localhost:8081/ :heavy_check_mark:
+
 ## Linguagens e libs utilizadas :books:
 
 - [Java Download](https://www.java.com/pt_BR/download/): versão 8
