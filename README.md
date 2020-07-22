@@ -8,6 +8,7 @@
 ![Badge](https://img.shields.io/static/v1?label=swagger&message=api+documentation&color=green&style=for-the-badge&logo=SWAGGER)
 ![Badge](https://img.shields.io/static/v1?label=jwt+token&message=spring+security&color=blue&style=for-the-badge&logo=JWT+TOKEN)
 ![Badge](https://img.shields.io/static/v1?label=docker&message=container&color=blue&style=for-the-badge&logo=DOCKER)
+![Badge](https://img.shields.io/static/v1?label=flyway&message=migrations&color=red&style=for-the-badge&logo=MIGRATIONS)
 
 ### Funcionalidades da Aplicação  
 
