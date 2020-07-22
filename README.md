@@ -5,9 +5,9 @@
 ![Badge](https://img.shields.io/static/v1?label=spring+boot&message=framework&color=green&style=for-the-badge&logo=SPRING)
 ![Badge](https://img.shields.io/static/v1?label=postman&message=testing+apis&color=orange&style=for-the-badge&logo=POSTMAN)
 ![Badge](https://img.shields.io/static/v1?label=postgresql&message=data+base&color=blue&style=for-the-badge&logo=PostgreSQL)
-![Badge](https://img.shields.io/static/v1?label=h2+console&message=data+base&color=green&style=for-the-badge&logo=H2)
 ![Badge](https://img.shields.io/static/v1?label=swagger&message=api+documentation&color=green&style=for-the-badge&logo=SWAGGER)
 ![Badge](https://img.shields.io/static/v1?label=jwt+token&message=spring+security&color=blue&style=for-the-badge&logo=JWT+TOKEN)
+![Badge](https://img.shields.io/static/v1?label=docker&message=container&color=blue&style=for-the-badge&logo=DOCKER)
 
 ### Funcionalidades da Aplicação  
 
