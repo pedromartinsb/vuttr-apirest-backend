@@ -45,7 +45,7 @@
 
 > API Rest - Backend: Concluido :heavy_check_mark:
 
-> Docker e deploy Servidor: Em desenvolvimento :warning:
+> Docker e deploy: Concluido :heavy_check_mark:
 
 > Projeto Frontend: Em desenvolvimento :warning:
 
