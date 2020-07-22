@@ -8,6 +8,7 @@
 ![Badge](https://img.shields.io/static/v1?label=swagger&message=api+documentation&color=green&style=for-the-badge&logo=SWAGGER)
 ![Badge](https://img.shields.io/static/v1?label=jwt+token&message=spring+security&color=blue&style=for-the-badge&logo=JWT+TOKEN)
 ![Badge](https://img.shields.io/static/v1?label=docker&message=container&color=blue&style=for-the-badge&logo=DOCKER)
+![Badge](https://img.shields.io/static/v1?label=flyway&message=migrations&color=red&style=for-the-badge&logo=MIGRATIONS)
 
 ### Funcionalidades da Aplicação  
 
@@ -79,6 +80,11 @@ Frameworks utilizados:
 |nome|descricao|links|tags|
 | -------- | -------- | -------- |-------- |
 |hotel|All in one tool|google.com.br|"node","java","react"|
+
+### Migrations  
+
+- Versionamento de SQL para banco de dados
+    - Como usar: V1__Create_Tables.sql | V2__Populate_Tables.sql
 
 
 ## Desenvolvedor
