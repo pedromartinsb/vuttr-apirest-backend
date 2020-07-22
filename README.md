@@ -105,6 +105,9 @@ Frameworks utilizados:
 
 ## Requisições:
 
+### Swagger
+![image](https://user-images.githubusercontent.com/33515329/88233021-46c3b300-cc4d-11ea-878e-fc1fc44e81f0.png)
+
 ### Autenticar e receber Token
 
 ![Captura de tela de 2020-07-21 11-43-19](https://user-images.githubusercontent.com/33515329/88069116-72f50c00-cb47-11ea-832e-06dc383f2c1a.png)
