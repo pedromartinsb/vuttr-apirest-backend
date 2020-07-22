@@ -32,16 +32,6 @@
     - Enviando token JWT no Swagger
     - Classe SwaggerConfigurations
     
-### Esteira de Entrega  
-
-:shipit: Desenvolvedor commita seu código no Github
-
-:computer: Github percebe alteração na branch master e faz a chamada ao Travis CI
-
-:construction_worker: Travis CI build a imagem e faz o push do Dockerhub
-
-:floppy_disk: Dockerhub recebe as imagens e publica no servidor
-
     
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
@@ -113,6 +103,18 @@ Frameworks utilizados:
 [<img src="https://avatars0.githubusercontent.com/u/33515329?s=460&u=251d4ef587ca509428d495ef98c0f6f1887dc3de&v=4" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
 | :---: |
 
+
+### Esteira de Entrega  
+
+:shipit: Desenvolvedor commita seu código no Github
+
+:computer: Github percebe alteração na branch master e faz a chamada ao Travis CI
+
+:construction_worker: Travis CI build a imagem e faz o push do Dockerhub
+
+:floppy_disk: Dockerhub recebe as imagens e publica no servidor
+
+![image](https://user-images.githubusercontent.com/33515329/88237343-75de2280-cc55-11ea-969f-8f5401011e03.png)
 
 
 ## Requisições:
