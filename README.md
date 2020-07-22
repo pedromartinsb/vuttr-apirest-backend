@@ -8,6 +8,7 @@
 ![Badge](https://img.shields.io/static/v1?label=swagger&message=api+documentation&color=green&style=for-the-badge&logo=SWAGGER)
 ![Badge](https://img.shields.io/static/v1?label=jwt+token&message=spring+security&color=blue&style=for-the-badge&logo=JWT+TOKEN)
 ![Badge](https://img.shields.io/static/v1?label=docker&message=container&color=blue&style=for-the-badge&logo=DOCKER)
+![Badge](https://img.shields.io/static/v1?label=travis+ci&message=continuous+integration&color=yellow&style=for-the-badge&logo=TRAVIS+CI)
 ![Badge](https://img.shields.io/static/v1?label=flyway&message=migrations&color=red&style=for-the-badge&logo=MIGRATIONS)
 
 ### Funcionalidades da Aplicação  
@@ -30,6 +31,17 @@
     - SpringFox Swagger
     - Enviando token JWT no Swagger
     - Classe SwaggerConfigurations
+    
+### Esteira de Entrega  
+
+:shipit: Desenvolvedor commita seu código no Github
+
+:computer: Github percebe alteração na branch master e faz a chamada ao Travis CI
+
+:construction_worker: Travis CI build a imagem e faz o push do Dockerhub
+
+:floppy_disk: Dockerhub recebe as imagens e publica no servidor
+
     
 ## O que a plataforma é capaz de fazer :checkered_flag:
 
