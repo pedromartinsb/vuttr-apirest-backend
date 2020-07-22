@@ -81,6 +81,11 @@ Frameworks utilizados:
 | -------- | -------- | -------- |-------- |
 |hotel|All in one tool|google.com.br|"node","java","react"|
 
+### Migrations  
+
+- Versionamento de SQL para banco de dados
+    - Como usar: V1__Create_Tables.sql | V2__Populate_Tables.sql
+
 
 ## Desenvolvedor
 [<img src="https://avatars0.githubusercontent.com/u/33515329?s=460&u=251d4ef587ca509428d495ef98c0f6f1887dc3de&v=4" width=200 > <br> <sub> Pedro Campos </sub>](https://github.com/pedromartinsb)
